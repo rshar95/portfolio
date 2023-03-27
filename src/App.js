@@ -9,6 +9,12 @@ import "./App.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
 
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {
+  gtmId: 'GTM-MWDBB44'
+}
+TagManager.initialize(tagManagerArgs)
+
 function App() {
   return (
     <div className="App">
